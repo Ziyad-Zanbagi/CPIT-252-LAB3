@@ -77,8 +77,7 @@ public class Car implements CarMaker {
     }
 
     @Override
-    public Car makeCopy() {
-        System.out.println("Sheep is Being Made");          
+    public Car makeCopy() {         
       Car carObject = null;	 
      try {  
            carObject = (Car) super.clone();
